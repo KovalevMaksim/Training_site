@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font: 16px/24px Arial, Tahoma, sans-serif;
+	color: #272727;
 }
 a {
 	text-decoration: none;
@@ -17,6 +18,11 @@ div.mid {
 }
 header {
 	background: #101417;
+}
+footer {
+	margin: 40px 0;
+	text-align: center;
+	text-transform: uppercase;
 }
 /* Шапка сайта*/
 .topmenu {
@@ -88,12 +94,54 @@ div.fon {
 	border-top: none;
 	padding: 40px;
 }
+div.fon hr.line {
+	border: none;
+	border-bottom: 1px dashed #ccc;
+	height: 0;
+	margin: 40px 0;
+}
 div.block {
 	width: 440px;
+	float: left;
+}
+div.block:nth-of-type(even) {
+	float: right;
 }
 div.anons {
 	background: #dcdcdc;
 	border: 1px solid #696969;
 	border-radius: 3px;
 	padding: 20px;
+}
+div.anons img {
+	box-shadow: 1px 1px 5px #000;
+}
+div.anons h3 {
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 20px;
+	margin: 20px 0 10px;
+	padding: 0;
+	color: #01617d;
+}
+div.anons p {
+	text-shadow: 1px 1px 0 #fff;
+}
+div.block a {
+	color:#272727;
+}
+div.anons:hover {
+	background: #e0eff4; 
+	border: 1px solid #bfd5dd;
+}
+div.rec img {
+	border: 1px solid #696969;
+	border-radius: 3px;
+}
+div.clear {
+	clear: both;
+}
+/*Подвал*/
+footer span {
+	margin: 0 20px;
 }
