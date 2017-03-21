@@ -20,8 +20,8 @@ div.mid {
 	margin: 0 auto;
 }
 header {
-	background: radial-gradient(rgba(255,255,255,0.1), #101417 250px, transparent 250px) no-repeat;
-	background-color: #101417;
+	padding-top: 20px;
+	background-color: #212121;
 	background-size: 500px 500px;
 }
 footer {
@@ -37,7 +37,7 @@ footer {
 }
 .topmenu a {
 	 margin: 0 0 0 10px;
-	 color: #1683a3;
+	 color: #1683A3;
 }
 .topmenu a:hover {
 	color: #ffffff;
@@ -143,9 +143,6 @@ div.anons:hover {
 div.rec img {
 	border: 1px solid #696969;
 	border-radius: 3px;
-}
-div.clear {
-	clear: both;
 }
 /*Подвал*/
 footer span {
