@@ -19,6 +19,11 @@ div.mid {
 header {
 	background: #101417;
 }
+footer {
+	margin: 40px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
 /* Шапка сайта*/
 .topmenu {
 	float: right;
@@ -135,4 +140,8 @@ div.rec img {
 }
 div.clear {
 	clear: both;
+}
+/*Подвал*/
+footer span {
+	margin: 0 20px;
 }
