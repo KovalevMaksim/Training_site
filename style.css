@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font: 16px/24px Arial, Tahoma, sans-serif;
+	color: #272727;
 }
 a {
 	text-decoration: none;
@@ -90,6 +91,10 @@ div.fon {
 }
 div.block {
 	width: 440px;
+	float: left;
+}
+div.block:nth-of-type(even) {
+	float: right;
 }
 div.anons {
 	background: #dcdcdc;
@@ -107,6 +112,16 @@ div.anons h3 {
 	margin: 20px 0 10px;
 	padding: 0;
 	color: #01617d;
+}
+div.anons p {
+	text-shadow: 1px 1px 0 #fff;
+}
+div.block a {
+	color:#272727;
+}
+div.anons:hover {
+	background: #e0eff4; 
+	border: 1px solid #bfd5dd;
 }
 div.clear {
 	clear: both;
