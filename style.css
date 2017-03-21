@@ -89,6 +89,12 @@ div.fon {
 	border-top: none;
 	padding: 40px;
 }
+div.fon hr.line {
+	border: none;
+	border-bottom: 1px dashed #ccc;
+	height: 0;
+	margin: 40px 0;
+}
 div.block {
 	width: 440px;
 	float: left;
@@ -122,6 +128,10 @@ div.block a {
 div.anons:hover {
 	background: #e0eff4; 
 	border: 1px solid #bfd5dd;
+}
+div.rec img {
+	border: 1px solid #696969;
+	border-radius: 3px;
 }
 div.clear {
 	clear: both;
