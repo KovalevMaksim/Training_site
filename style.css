@@ -8,6 +8,9 @@ body {
 a {
 	text-decoration: none;
 }
+a:hover {
+	transition: all 0.5s;
+}
 div.clearfix {
 	clear: both;
 }
@@ -133,6 +136,7 @@ div.block a {
 div.anons:hover {
 	background: #e0eff4; 
 	border: 1px solid #bfd5dd;
+	transition: all 1s;
 }
 div.rec img {
 	border: 1px solid #696969;
