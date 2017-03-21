@@ -97,3 +97,17 @@ div.anons {
 	border-radius: 3px;
 	padding: 20px;
 }
+div.anons img {
+	box-shadow: 1px 1px 5px #000;
+}
+div.anons h3 {
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 20px;
+	margin: 20px 0 10px;
+	padding: 0;
+	color: #01617d;
+}
+div.clear {
+	clear: both;
+}
