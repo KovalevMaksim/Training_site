@@ -20,7 +20,9 @@ div.mid {
 	margin: 0 auto;
 }
 header {
-	background: #101417;
+	background: radial-gradient(rgba(255,255,255,0.1), #101417 250px, transparent 250px) no-repeat;
+	background-color: #101417;
+	background-size: 500px 500px;
 }
 footer {
 	margin: 40px 0;
