@@ -1,0 +1,99 @@
+body {
+	background:  url("images/geometry2.png");
+	margin: 0;
+	padding: 0;
+	font: 16px/24px Arial, Tahoma, sans-serif;
+}
+a {
+	text-decoration: none;
+}
+div.clearfix {
+	clear: both;
+}
+/*Структура сайта*/
+div.mid {
+	width: 1000px;
+	margin: 0 auto;
+}
+header {
+	background: #101417;
+}
+/* Шапка сайта*/
+.topmenu {
+	float: right;
+	height: 70px;
+	line-height: 70px;
+}
+.topmenu a {
+	 margin: 0 0 0 10px;
+	 color: #1683a3;
+}
+.topmenu a:hover {
+	color: #ffffff;
+}
+.afisha {
+	padding: 20px 50px 0px 50px;
+	background: #f2f2f2 url("images/headline.png") top repeat-x;
+}
+div.afisha img {
+	float: left;
+}
+div.afisha h3 {
+	font-size: 24px;
+	font-weight: normal;
+	text-align: center;
+	color: #830000;
+}
+div.afisha p {
+	text-align: center;
+}
+div.afisha a {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	background: #ff0000;
+	border: 1px solid #ff0000;
+	padding: 5px 15px;
+	border-radius: 3px;
+	box-shadow: 2px 2px 7px -1px #777;
+	text-shadow: 2px 2px 3px #8b0000;
+}
+div.afisha a:hover {
+	background: #1e90ff; 
+	border: 1px solid #1e90ff;
+	text-shadow: 2px 2px 3px #00008b;
+}
+/*Главное меню*/
+.menu .mid nav ul {
+	display: flex;     /* Флексбокс меню*/
+	list-style: none;  /* Отмена маркеров списка*/
+	justify-content: space-around; /* Выравнивание элементов с отступом от краёв*/
+}
+.menu {
+	background: #1683a3;
+	border: 1px solid #016c8b
+}
+div.menu ul li a {
+	color: #ffffff;
+	text-transform: uppercase;
+	text-shadow: 1px 2px 3px #0b4455;
+}
+div.menu ul li a:hover {
+	color: #1e90ff;
+}
+/*Контент сайта*/
+div.fon {
+	background: #ffffff;
+	border: 1px solid #ccc;
+	border-top: none;
+	padding: 40px;
+}
+div.block {
+	width: 440px;
+}
+div.anons {
+	background: #dcdcdc;
+	border: 1px solid #696969;
+	border-radius: 3px;
+	padding: 20px;
+}
