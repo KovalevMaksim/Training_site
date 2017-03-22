@@ -43,7 +43,7 @@ footer {
 	color: #ffffff;
 }
 .afisha {
-	padding: 20px 50px 0px 50px;
+	padding: 20px 50px 1px 50px;
 	background: #f2f2f2 url("images/headline.png") top repeat-x;
 }
 div.afisha img {
@@ -147,4 +147,62 @@ div.rec img {
 /*Подвал*/
 footer span {
 	margin: 0 20px;
+}
+/*  Адаптивный дизайн*/
+@media screen and (max-width: 999px) {
+	div.mid {
+	width: 95%;	
+}
+div.afisha h3 {
+	font-size: 19px;
+}
+div.afisha img {
+	margin-right: 2px;
+}
+div.block {
+	width: 45%;
+}
+div.anons img,
+div.rec img    {
+	width: 100%;
+}
+div.anons h3 {
+	font-size: 18px;	
+}
+div.rec img {
+	border: 1px solid #696969;
+	border-radius: 3px;
+} 
+}
+@media screen and (max-width: 640px) {
+	header {
+	text-align: center;
+}
+.topmenu a {
+	 font-size: 14px;
+}
+.topmenu {
+	height: 25px;
+	line-height: 20px;
+}
+div.block,
+div.block:nth-of-type(even),
+div.afisha img,
+.topmenu  {
+	float: none;
+}
+div.block {
+	width: auto;
+	margin-bottom: 40px;
+}
+div.block:nth-last-of-type(2) {
+	margin-bottom: 0;
+}
+footer span {
+	margin: 5px 0;
+	display: block;
+}
+footer {
+	margin: 5px 0;
+}
 }
